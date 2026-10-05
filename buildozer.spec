@@ -1,0 +1,21 @@
+[app]
+title = AI聊天机器人
+package.name = chatbot
+package.domain = org.example.chatbot
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas
+version = 0.1
+requirements = python3,kivy
+orientation = portrait
+osx.python_version = 3
+osx.kivy_version = 2.1.0
+fullscreen = 0
+android.permissions = INTERNET
+android.api = 31
+android.minapi = 21
+android.ndk = 23b
+android.sdk = 31
+android.gradle_dependencies = 
+android.add_src = 
+android.archs = arm64-v8a
+android.accept_sdk_license = True
